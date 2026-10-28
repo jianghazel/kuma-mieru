@@ -1,0 +1,65 @@
+{
+  "head": "6216115dc3a018e94c197f8980d7596aa21d82fa",
+  "base": "0745d5e1e90554d0774ba166cc4aa9ecfc5ec1e4",
+  "unitTests": 21,
+  "typeAwareLint": "pass",
+  "format": "pass",
+  "productionBuild": {
+    "web": "pass",
+    "docs": "pass"
+  },
+  "browser": {
+    "engine": "Chromium 153",
+    "viewports": [
+      {
+        "width": 1000,
+        "height": 900,
+        "scale": 2
+      },
+      {
+        "width": 390,
+        "height": 900,
+        "scale": 2
+      }
+    ],
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "views": [
+      "full",
+      "lite",
+      "detail",
+      "loading"
+    ],
+    "combinationsPassed": 16,
+    "errors": 0,
+    "horizontalOverflow": false
+  },
+  "backgroundSync": {
+    "customUrlTimer": "pass",
+    "providerPreload": "pass",
+    "atomicAttribution": "pass",
+    "brokenImageRetention": "pass",
+    "apiFailureRetention": "pass",
+    "recovery": "pass",
+    "providerMode": "mocked responses; no live API keys supplied"
+  },
+  "renderedBlur": {
+    "method": "Compare natural card rendering against the same card with backdrop-filter disabled; mean absolute RGB pixel difference inside the card and an unchanged outside region",
+    "light": {
+      "inside": 8.755,
+      "outside": 0
+    },
+    "dark": {
+      "inside": 8.101,
+      "outside": 0
+    }
+  },
+  "sampleImage": "AI-generated alpine lake wallpaper",
+  "mergeOrders": {
+    "count": 2,
+    "conflicts": false,
+    "finalTree": "09d4044ddcc59e025968c1798dc423a652a48d96"
+  }
+}
